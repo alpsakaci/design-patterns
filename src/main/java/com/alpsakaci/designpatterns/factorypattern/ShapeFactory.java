@@ -1,6 +1,6 @@
 package com.alpsakaci.designpatterns.factorypattern;
 
-public class ShapeFactory {
+public class ShapeFactory extends AbstractFactory {
 	public Shape getShape(String shapeType) {
 		if (shapeType == null) {
 			return null;
@@ -9,10 +9,10 @@ public class ShapeFactory {
 			return new Circle();
 		} else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
 			return new Rectangle();
-		} else if(shapeType.equalsIgnoreCase("SQUARE")) {
+		} else if (shapeType.equalsIgnoreCase("SQUARE")) {
 			return new Square();
 		}
-		
+
 		return null;
 
 	}
