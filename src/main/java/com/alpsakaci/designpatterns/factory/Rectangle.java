@@ -1,4 +1,4 @@
-package com.alpsakaci.designpatterns.factorypattern;
+package com.alpsakaci.designpatterns.factory;
 
 public class Rectangle implements Shape {
 

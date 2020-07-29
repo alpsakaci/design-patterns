@@ -1,4 +1,4 @@
-package com.alpsakaci.designpatterns.factorypattern;
+package com.alpsakaci.designpatterns.factory;
 
 public abstract class AbstractFactory {
 	abstract Shape getShape(String shapeType);
