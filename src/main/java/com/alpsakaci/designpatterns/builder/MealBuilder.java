@@ -17,24 +17,8 @@ public class MealBuilder {
 		meal.removeItem(item);
 		return this;
 	}
-	
-//	public Meal prepareVegMeal() {
-//		Meal meal = new Meal();
-//		meal.addItem(new VegBurger());
-//		meal.addItem(new Coke());
-//		
-//		return meal;
-//	}
-//	
-//	public Meal prepareNonVegMeal() {
-//		Meal meal = new Meal();
-//		meal.addItem(new ChickenBurger());
-//		meal.addItem(new IceTea());
-//		
-//		return meal;
-//	}
 
 	public Meal build() {
-		return this.meal;
+		return meal;
 	}
 }
