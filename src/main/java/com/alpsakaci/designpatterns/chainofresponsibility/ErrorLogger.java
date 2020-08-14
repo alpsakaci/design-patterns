@@ -10,4 +10,5 @@ public class ErrorLogger extends AbstractLogger {
     protected void write(String message) {
         System.out.println("Error Console Logger: " + message);
     }
+    
 }

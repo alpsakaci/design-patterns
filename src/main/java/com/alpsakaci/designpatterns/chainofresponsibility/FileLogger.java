@@ -10,4 +10,5 @@ public class FileLogger extends AbstractLogger {
     protected void write(String message) {
         System.out.println("File Console Logger: " + message);
     }
+    
 }

@@ -10,4 +10,5 @@ public class ConsoleLogger extends AbstractLogger {
     protected void write(String message) {
         System.out.println("Standard Console Logger: " + message);
     }
+    
 }
