@@ -6,10 +6,10 @@ public class StrategyPattern {
 		Context context = new Context(new OperationAdd());
 		System.out.println(context.executeStrategy(12, 4));
 		
-		context.setStrategy(new OperationSubstract());
+		context = new Context(new OperationSubstract());
 		System.out.println(context.executeStrategy(12, 4));
 		
-		context.setStrategy(new OperationMultiply());
+		context = new Context(new OperationMultiply());
 		System.out.println(context.executeStrategy(12, 4));
 	}
 
