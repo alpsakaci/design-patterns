@@ -159,3 +159,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+target/classes/META-INF/maven/com.alpsakaci/designpatterns/pom.properties
