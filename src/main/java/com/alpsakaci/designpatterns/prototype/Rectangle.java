@@ -1,7 +1,7 @@
 package com.alpsakaci.designpatterns.prototype;
 
 public class Rectangle extends Shape {
-	
+
 	public Rectangle() {
 		this.setType("Rectangle");
 	}

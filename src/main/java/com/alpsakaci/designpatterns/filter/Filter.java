@@ -38,11 +38,11 @@ public class Filter {
 
 		System.out.println("\nSingle Or Females: ");
 		printPersons(singleOrFemale.meetCriteria(persons));
-		
+
 		System.out.println("\nMale or Female");
 		Criteria maleOrFemale = new OrCriteria(male, female);
 		printPersons(maleOrFemale.meetCriteria(persons));
-		
+
 		System.out.println("\nMale AND Female");
 		Criteria maleAndFemale = new AndCriteria(male, female);
 		printPersons(maleAndFemale.meetCriteria(persons));

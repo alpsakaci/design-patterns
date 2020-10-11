@@ -1,7 +1,7 @@
 package com.alpsakaci.designpatterns.prototype;
 
 public class Square extends Shape {
-	
+
 	public Square() {
 		this.setType("Square");
 	}

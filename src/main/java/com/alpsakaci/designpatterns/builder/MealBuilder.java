@@ -12,7 +12,7 @@ public class MealBuilder {
 		meal.addItem(item);
 		return this;
 	}
-	
+
 	public MealBuilder removeItem(Item item) {
 		meal.removeItem(item);
 		return this;

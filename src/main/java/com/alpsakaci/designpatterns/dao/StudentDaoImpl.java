@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentDaoImpl implements StudentDao {
-	
+
 //	consider the list as database
 	List<Student> students;
-	
+
 	public StudentDaoImpl() {
 		students = new ArrayList<Student>();
 		Student student1 = new Student("Alp", 0);

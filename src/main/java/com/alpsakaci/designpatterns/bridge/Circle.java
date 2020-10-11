@@ -6,7 +6,7 @@ public class Circle extends Shape {
 	protected Circle(DrawAPI drawAPI, int radius, int x, int y) {
 		super(drawAPI);
 		this.x = x;
-		this.y =y;
+		this.y = y;
 	}
 
 	@Override

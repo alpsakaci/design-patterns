@@ -1,7 +1,7 @@
 package com.alpsakaci.designpatterns.prototype;
 
 public class Circle extends Shape {
-	
+
 	public Circle() {
 		this.setType("Circle");
 	}

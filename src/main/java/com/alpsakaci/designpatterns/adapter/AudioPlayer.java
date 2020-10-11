@@ -11,8 +11,8 @@ public class AudioPlayer implements MediaPlayer {
 			mediaAdapter = new MediaAdapter(audioType);
 			mediaAdapter.play(audioType, fileName);
 		} else {
-			System.out.println(audioType +" format not supported.");
+			System.out.println(audioType + " format not supported.");
 		}
 	}
-	
+
 }

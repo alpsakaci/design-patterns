@@ -10,7 +10,7 @@ public class BuilderPattern {
 				.addItem(new Coke())
 				.build();
 		meal.showItems();
-		System.out.println("Total Cost: " + meal.getCost());		
+		System.out.println("Total Cost: " + meal.getCost());
 	}
 
 }

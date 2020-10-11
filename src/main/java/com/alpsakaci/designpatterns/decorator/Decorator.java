@@ -6,7 +6,7 @@ public class Decorator {
 		Shape circle = new Circle();
 		Shape redCircle = new RedShapeDecorator(new Circle());
 		Shape redRectangele = new RedShapeDecorator(new Rectangle());
-		
+
 		circle.draw();
 		redCircle.draw();
 		redRectangele.draw();

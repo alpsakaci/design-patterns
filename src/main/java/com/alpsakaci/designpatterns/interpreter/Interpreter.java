@@ -8,7 +8,7 @@ public class Interpreter {
 		Expression bugra = new TerminalExpression("Bugra");
 		return new OrExpression(alp, bugra);
 	}
-	
+
 	public static Expression getMarriedWomanExpression() {
 		Expression selin = new TerminalExpression("Selin");
 		Expression married = new TerminalExpression("Married");
@@ -18,7 +18,7 @@ public class Interpreter {
 	public static void main(String[] args) {
 		Expression isMale = getMaleExpression();
 		Expression isMarriedWoman = getMarriedWomanExpression();
-		
+
 		System.out.println("isMale? " + isMale.interpret("Alp"));
 		System.out.println("isMarriedWoman? " + isMarriedWoman.interpret("Selin Married"));
 	}

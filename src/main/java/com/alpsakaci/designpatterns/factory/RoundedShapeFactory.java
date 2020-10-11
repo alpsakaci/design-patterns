@@ -9,7 +9,7 @@ public class RoundedShapeFactory extends AbstractFactory {
 		} else if (shapeType.equalsIgnoreCase("square")) {
 			return new RoundedSquare();
 		}
-		
+
 		return null;
 	}
 
