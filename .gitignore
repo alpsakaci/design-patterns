@@ -1,4 +1,4 @@
-/target/
+target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -159,4 +159,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+target/classes/META-INF/maven/com.alpsakaci/designpatterns/pom.properties
 target/classes/META-INF/maven/com.alpsakaci/designpatterns/pom.properties
